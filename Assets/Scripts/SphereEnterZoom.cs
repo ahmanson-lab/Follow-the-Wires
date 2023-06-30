@@ -86,7 +86,7 @@ public class SphereEnterZoom : MonoBehaviour
             FireVideo.SetActive(false);
             DeactivateDestination.Invoke();
             Debug.Log("camera exit detected");
-            MoveCamera(new Vector3(mainCamera.transform.position.x,mainCamera.transform.position.y,mainCamera.transform.position.z), new Vector3(mainCamera.transform.position.x,(mainCamera.transform.position.y + 8f), (mainCamera.transform.position.z - 5f)), moveSpeed);
+            //MoveCamera(new Vector3(mainCamera.transform.position.x,mainCamera.transform.position.y,mainCamera.transform.position.z), new Vector3(mainCamera.transform.position.x,(mainCamera.transform.position.y + 8f), (mainCamera.transform.position.z - 5f)), moveSpeed);
         }
     }
 }

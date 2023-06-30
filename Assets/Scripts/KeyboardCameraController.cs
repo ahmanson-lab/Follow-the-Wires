@@ -33,27 +33,27 @@ public class KeyboardCameraController : MonoBehaviour
         velocityTarget = Vector3.zero;
 
         // Check for left arrow key
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             //transform.position += Vector3.left * movementSpeed * Time.deltaTime;
             velocityTarget += (Vector3.left * movementSpeed * Time.deltaTime);
         }
 
         // Check for right arrow key
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             //transform.position += Vector3.right * movementSpeed * Time.deltaTime;
             velocityTarget += (Vector3.right * movementSpeed * Time.deltaTime);
         }
         // Check for up arrow key
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             //transform.position += Vector3.forward * movementSpeed * Time.deltaTime;
             velocityTarget += (Vector3.forward * movementSpeed * Time.deltaTime);
         }
 
         // Check for down arrow key
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
             //transform.position += Vector3.back * movementSpeed * Time.deltaTime;
             velocityTarget += (Vector3.back * movementSpeed * Time.deltaTime);
