@@ -2,29 +2,29 @@ Unity Editor version:    2021.3.19f1 (c9714fde33b6)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 11.4 (Build 20F71)
-Darwin version:          20.5.0
-Architecture:            x86_64
+macOS version:           Version 13.4.1 (Build 22F82)
+Darwin version:          22.5.0
+Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        16384 MB
+Available memory:        65536 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MacOS/Unity
+/Applications/2021.3.19f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)
+/Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55363
-Successfully changed project path to: /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)
-/Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)
+51056
+Successfully changed project path to: /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires
+/Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,91 +54,87 @@ Successfully changed project path to: /Users/curtisfletcher/wkspaces/Follow The 
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4490427904] Host "[IP] 10.25.141.74 [Port] 0 [Flags] 2 [Guid] 2260426009 [EditorId] 2260426009 [Version] 1048832 [Id] OSXEditor(0,Curtiss-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8645369344] Host "[IP] 192.168.68.55 [Port] 0 [Flags] 2 [Guid] 4158639427 [EditorId] 4158639427 [Version] 1048832 [Id] OSXEditor(0,Eriks-MacBook-2.attlocal.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4490427904] Host "[IP] 10.25.141.74 [Port] 0 [Flags] 2 [Guid] 2260426009 [EditorId] 2260426009 [Version] 1048832 [Id] OSXEditor(0,Curtiss-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8645369344] Host "[IP] 192.168.68.55 [Port] 0 [Flags] 2 [Guid] 4158639427 [EditorId] 4158639427 [Version] 1048832 [Id] OSXEditor(0,Eriks-MacBook-2.attlocal.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 161.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Assets
+[Subsystems] Discovering subsystems at path /Applications/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-Metal devices available: 2
-0: AMD Radeon Pro 5500M (high power)
-1: Intel(R) UHD Graphics 630 (low power)
-Using device AMD Radeon Pro 5500M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5500M
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56909
+Mono path[0] = '/Applications/2021.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56311
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002940 seconds.
+Register platform support module: /Applications/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/2021.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000510 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 138.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
+- Completed reload, in  0.451 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1102ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (451ms)
+		BeginReloadAssembly (25ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (361ms)
+			LoadAssemblies (24ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
+			SetupTypeCache (68ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (492ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
+				InitializePlatformSupportModulesInManaged (66ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004811 seconds.
+Registered in 0.001559 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 112.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:48 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -148,44 +144,44 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.314 seconds
+- Completed reload, in  0.898 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2315ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (2022ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (441ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (1312ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (465ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (1022ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Launching external process: /Applications/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4135 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (1.3 MB). Loaded Objects now: 4593.
-Memory consumption went from 239.1 MB to 237.8 MB.
-Total: 15.199777 ms (FindLiveObjects: 0.744481 ms CreateObjectMapping: 0.338070 ms MarkObjects: 13.762802 ms  DeleteObjects: 0.353218 ms)
+Unloading 3833 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.3 MB). Loaded Objects now: 4294.
+Memory consumption went from 228.2 MB to 226.9 MB.
+Total: 8.722334 ms (FindLiveObjects: 0.098125 ms CreateObjectMapping: 0.044833 ms MarkObjects: 8.416458 ms  DeleteObjects: 0.162334 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -199,33 +195,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 396535.284477 seconds.
-  path: Assets/Scenes/Active Scenes/3 Panoply.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Active Scenes/3 Panoply.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a796186f4a7233023db352145052cd') in 0.009986 seconds 
+  Time since last request: 141128.685052 seconds.
+  path: Assets/Scripts/KeyboardCameraController.cs
+  artifactKey: Guid(b7a9e924311687a4aa917a6e20761a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KeyboardCameraController.cs using Guid(b7a9e924311687a4aa917a6e20761a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca06c222f4cdd5568ef8ca41910a07c') in 0.201401 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003618 seconds.
+Registered in 0.001533 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Thread 0x2a34c7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -235,136 +231,40 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.690 seconds
+- Completed reload, in  0.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2691ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (734ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (2008ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (586ms)
+			LoadAssemblies (31ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (405ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (1078ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (872ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4597.
-Memory consumption went from 233.2 MB to 232.0 MB.
-Total: 16.892714 ms (FindLiveObjects: 0.377615 ms CreateObjectMapping: 0.327588 ms MarkObjects: 15.808323 ms  DeleteObjects: 0.378097 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003426 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.358 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2358ms)
-		BeginReloadAssembly (195ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (2041ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (746ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (875ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (718ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4601.
-Memory consumption went from 233.3 MB to 232.0 MB.
-Total: 16.833992 ms (FindLiveObjects: 0.730169 ms CreateObjectMapping: 0.582250 ms MarkObjects: 15.038342 ms  DeleteObjects: 0.481553 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 4602.
-Memory consumption went from 151.7 MB to 150.4 MB.
-Total: 14.634985 ms (FindLiveObjects: 0.349390 ms CreateObjectMapping: 0.257353 ms MarkObjects: 13.744437 ms  DeleteObjects: 0.282734 ms)
+Unloading 3776 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.2 MB). Loaded Objects now: 4298.
+Memory consumption went from 226.4 MB to 225.2 MB.
+Total: 7.978792 ms (FindLiveObjects: 0.101375 ms CreateObjectMapping: 0.043667 ms MarkObjects: 7.721083 ms  DeleteObjects: 0.112041 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -379,26 +279,26 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003036 seconds.
+Registered in 0.001910 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Thread 0x170233000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/curtisfletcher/wkspaces/Follow The Wires (Brought to You by Firescapes Collaboratory)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -408,31 +308,202 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.221 seconds
+- Completed reload, in  0.725 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2244ms)
-		BeginReloadAssembly (362ms)
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (172ms)
-		EndReloadAssembly (1748ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (28ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (429ms)
+			SetupTypeCache (148ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (805ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (651ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3776 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.2 MB). Loaded Objects now: 4302.
+Memory consumption went from 226.4 MB to 225.2 MB.
+Total: 8.260208 ms (FindLiveObjects: 0.119500 ms CreateObjectMapping: 0.053083 ms MarkObjects: 7.968625 ms  DeleteObjects: 0.115125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001452 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x170233000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3776 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.2 MB). Loaded Objects now: 4306.
+Memory consumption went from 226.4 MB to 225.2 MB.
+Total: 8.289208 ms (FindLiveObjects: 0.118042 ms CreateObjectMapping: 0.047625 ms MarkObjects: 8.013166 ms  DeleteObjects: 0.109791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001514 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x170233000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in /Users/ecloyer/Documents/Projects/62 (firescapes)/Development/Follow-the-Wires/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Domain Reload Profiling:
+	ReloadAssembly (714ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (579ms)
+			LoadAssemblies (26ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3776 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (1.2 MB). Loaded Objects now: 4310.
+Memory consumption went from 226.4 MB to 225.2 MB.
+Total: 8.025417 ms (FindLiveObjects: 0.101917 ms CreateObjectMapping: 0.043625 ms MarkObjects: 7.777416 ms  DeleteObjects: 0.101750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

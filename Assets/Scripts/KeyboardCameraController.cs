@@ -5,7 +5,10 @@ using UnityEngine;
 public class KeyboardCameraController : MonoBehaviour
 {
     [SerializeField] private float movementSpeed = 5f;
+    public float dampening = 2;
     
+    private Vector3 velocity;
+    private Vector3 velocityTarget;
     
     private void Update()
     {
@@ -27,27 +30,37 @@ public class KeyboardCameraController : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, target,  Time.deltaTime * 5.0f);
         }*/
 
+        velocityTarget = Vector3.zero;
+
         // Check for left arrow key
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position += Vector3.left * movementSpeed * Time.deltaTime;
+            //transform.position += Vector3.left * movementSpeed * Time.deltaTime;
+            velocityTarget += (Vector3.left * movementSpeed * Time.deltaTime);
         }
 
         // Check for right arrow key
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position += Vector3.right * movementSpeed * Time.deltaTime;
+            //transform.position += Vector3.right * movementSpeed * Time.deltaTime;
+            velocityTarget += (Vector3.right * movementSpeed * Time.deltaTime);
         }
         // Check for up arrow key
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += Vector3.forward * movementSpeed * Time.deltaTime;
+            //transform.position += Vector3.forward * movementSpeed * Time.deltaTime;
+            velocityTarget += (Vector3.forward * movementSpeed * Time.deltaTime);
         }
 
         // Check for down arrow key
         if (Input.GetKey(KeyCode.S))
         {
-            transform.position += Vector3.back * movementSpeed * Time.deltaTime;
+            //transform.position += Vector3.back * movementSpeed * Time.deltaTime;
+            velocityTarget += (Vector3.back * movementSpeed * Time.deltaTime);
         }
+        
+        velocity = Vector3.Lerp(velocity, velocityTarget, Time.deltaTime * dampening);
+        transform.position += velocity;
+
     }
 }
