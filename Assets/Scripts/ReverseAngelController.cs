@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Video;
 
 
 //changes color of angel sprite in accordance with user mouse interaction
@@ -19,12 +20,23 @@ public class ReverseAngelController : MonoBehaviour
     [SerializeField] float movementSpeed;
     // Update is called once per frame
 
+    public VideoManager videoManager;
+    public List<VideoClip> videos;
+    public Vector3 videoOffset;
+    public float videoRange = 10;
+
+    private DestinationManager destinationManager;
+    private bool withinVideoRange;
+    private Vector3 clickPos = Vector3.zero;
+
     [SerializeField] UnityEvent AngelClick;
+    [SerializeField] UnityEvent ExitAngelVideo;
     Color defaultColor;
 
     private void Start()
     {
         defaultColor = gameObject.GetComponent<SpriteRenderer>().color;
+        destinationManager = gameObject.GetComponent<DestinationManager>();
     }
 
     //moves angel and resets position
@@ -35,11 +47,23 @@ public class ReverseAngelController : MonoBehaviour
             transform.position = startPos.transform.position;
         }
         transform.position += Vector3.right * movementSpeed * Time.deltaTime;
+        destinationManager.videoPosAndRot.transform.position = Camera.main.transform.position + videoOffset;
+        if (clickPos != Vector3.zero)
+        {
+            bool isInVideoRange = Vector3.Distance(Camera.main.transform.position, clickPos) < videoRange;
+            if (isInVideoRange != withinVideoRange)
+            {
+                withinVideoRange = isInVideoRange;
+                if (!withinVideoRange) ExitAngelVideo.Invoke();
+            }
+            Debug.Log("Within video range: " + withinVideoRange);
+        }
     }
 
     void OnMouseDown()
     {
         gameObject.GetComponent<SpriteRenderer>().color = new Color(250,180,20);
+        clickPos = Camera.main.transform.position;
         AngelClick.Invoke();
     }
 

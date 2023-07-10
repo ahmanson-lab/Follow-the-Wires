@@ -20,10 +20,12 @@ public class SpotlightController : MonoBehaviour
     }
 
     public void Minimize() {
+        Debug.Log("Minimize spotlight");
         angleTarget = minAngle;
     }
 
     public void Maximize() {
+        Debug.Log("Maximize spotlight");
         angleTarget = maxAngle;
     }
 

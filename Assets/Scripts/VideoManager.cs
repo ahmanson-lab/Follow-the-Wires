@@ -20,6 +20,7 @@ public class VideoManager : MonoBehaviour
         vidlist = vl;
         videoPlane.transform.position = t.transform.position;
         videoPlane.transform.rotation = t.transform.rotation;
+        Debug.Log(videoPlane.transform.position);
         RefreshVideoDisplay();
     }
 

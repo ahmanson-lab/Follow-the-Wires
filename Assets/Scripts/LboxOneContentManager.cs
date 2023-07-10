@@ -152,7 +152,10 @@ public class LboxOneContentManager : MonoBehaviour
         }
         else if(isExpanded == false)
         {
+            if(smallIndex < listOfLargeSpriteLists.list.Count)
+            {
             gameObject.GetComponent<Image>().sprite = smallSprites[smallIndex];
+            }
         }
     }
 }

@@ -76,6 +76,8 @@ public class LboxTwoContentManager : MonoBehaviour
     //updates sprite displayed
     public void RefreshImageDisplay()
     {
-        gameObject.GetComponent<Image>().sprite = smallSprites[smallIndex];
+        if (smallSprites.Count > 0) {
+            gameObject.GetComponent<Image>().sprite = smallSprites[smallIndex];
+        }
     }
 }
