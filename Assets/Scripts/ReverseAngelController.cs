@@ -20,6 +20,7 @@ public class ReverseAngelController : MonoBehaviour
     [SerializeField] float movementSpeed;
     // Update is called once per frame
 
+    public GameObject videoPlane;
     public VideoManager videoManager;
     public List<VideoClip> videos;
     public Vector3 videoOffset;
@@ -54,9 +55,11 @@ public class ReverseAngelController : MonoBehaviour
             if (isInVideoRange != withinVideoRange)
             {
                 withinVideoRange = isInVideoRange;
-                if (!withinVideoRange) ExitAngelVideo.Invoke();
+                if (!withinVideoRange) {
+                    videoPlane.SetActive(false);
+                    ExitAngelVideo.Invoke();
+                }
             }
-            Debug.Log("Within video range: " + withinVideoRange);
         }
     }
 
@@ -64,6 +67,7 @@ public class ReverseAngelController : MonoBehaviour
     {
         gameObject.GetComponent<SpriteRenderer>().color = new Color(250,180,20);
         clickPos = Camera.main.transform.position;
+        //videoPlane.SetActive(true);
         AngelClick.Invoke();
     }
 
